@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú"
+
+        android:textAlignment="center"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/btnCalcu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:backgroundTint="@color/green"
+        android:text="Calculadora"
+        />
+
+    <Button
+        android:id="@+id/btnFactorial"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:backgroundTint="@color/red"
+        android:text="Factorial" />
+
+    <Button
+        android:id="@+id/btnIcm"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:backgroundTint="@color/blue"
+        android:text="IMC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:text="LinearLayout"
+            app:cornerRadius="5dp" />
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="5dp"
+            />
+        <Button
+            android:id="@+id/btnConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ConstraintLayout"
+            android:backgroundTint="@color/blue"
+            app:cornerRadius="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
